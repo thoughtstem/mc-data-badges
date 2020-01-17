@@ -2,7 +2,7 @@
 
 (provide show-badge)
 
-(require website/bootstrap
+(require (except-in website/bootstrap select)
          mc-data/models)
 
 (define (show-badge b)

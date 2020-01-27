@@ -6,10 +6,10 @@
 
 (require (except-in website/bootstrap select)
          mc-data/models
-         mc-data/server/util
+         webapp/server/util
          (only-in 2htdp/image circle)
          mc-data-people/person-chip
-         mc-data/views/util)
+         webapp/views/util)
 
 (define (badges-index badges)
   (container

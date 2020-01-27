@@ -7,4 +7,5 @@
 
 (define (badge-chip badge)
   (a href: (~a "/badges/" (badge-id badge))
-     (badge-pill-info (badge-name badge))))
+     (badge-pill-info 
+       (badge-name badge))))
